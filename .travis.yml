@@ -12,6 +12,9 @@ jobs:
   include:
     name: failing
     script: true
+notifications:
+  email:
+    - damian.fuczylo@devtactics.net
 
 after_success:
   echo done
